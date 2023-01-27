@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
 export const ContList = styled.ul`
-  list-style: none;
-  margin-left: 20px;
+  /* list-style: none; */
+  margin-left: 70px;
 `;
 
 export const DeleteBtn = styled.button`
-    width: 50px;
-    height: 15px;
+    width: 60px;
+    height: 20px;
     margin-left: 15px;
-    border: none;
+    border: 1px solid lightgray;
     border-radius: 2px;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.03em;
+    background-color: white;
     cursor: pointer;
     transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color  250ms cubic-bezier(0.4, 0, 0.2, 1);

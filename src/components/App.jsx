@@ -62,12 +62,12 @@ class App extends Component {
     const sortedContacts = this.getSortedContacts(filteredContacts);
     return (
       <>
-        <SectionWrap >
-        <MainTitle>Phonebook</MainTitle>
+        <SectionWrap>
+          <MainTitle>Phonebook</MainTitle>
           <FormAddContact onAddFormSubmit={this.addContact} />
         </SectionWrap>
-        <SectionWrap >
-        <ContactTitle>Contacts</ContactTitle>
+        <SectionWrap>
+          <ContactTitle>Contacts</ContactTitle>
           <FilterByName value={filter} onChange={this.changeFilter} />
           <ContactsList
             contacts={sortedContacts}
