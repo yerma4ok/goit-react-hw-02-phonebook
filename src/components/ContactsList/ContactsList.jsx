@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ConList, DeleteBtn } from './ContactsList.styled';
+import { ContList, DeleteBtn } from './ContactsList.styled';
 
 const ContactsList = ({ contacts, deleteContact }) => {
   return (
-    <ConList>
+    <ContList>
       {contacts.map(({ id, name, number }) => (
         <li key={id}>
           <span>{name}</span>
           <span> : </span>
           <span>{number}</span>
-          <DeleteBtn type="button" onClick={() => deleteContact(id)}>
-            X
+                   <DeleteBtn type="button" onClick={() => deleteContact(id)}>
+            Delete
           </DeleteBtn>
         </li>
       ))}
-    </ConList>
+    </ContList>
   );
 };
 

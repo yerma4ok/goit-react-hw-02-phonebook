@@ -10,7 +10,7 @@ export const Section = styled.section`
   `;
 
 export const Title = styled.h2`
-  /* color: darkgray; */
+ 
   font-size: 24px;
   display: block;
   margin-bottom: 15px;

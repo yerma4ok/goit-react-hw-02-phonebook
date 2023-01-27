@@ -4,7 +4,7 @@ import { FormLabel, Input } from './FilterByName.styled';
 
 const FilterByName = ({ value, onChange }) => (
   <FormLabel>
-    Find: <br />
+    Find contacts by name: <br />
     <Input type="text" value={value} onChange={onChange} />
   </FormLabel>
 );
